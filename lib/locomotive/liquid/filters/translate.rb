@@ -15,7 +15,7 @@ module Locomotive
           locale ||= I18n.locale.to_s
 
           if scope.blank?
-            translation = current_site.translations.where(key: input).first
+            translation = @context.registers[:site].translations.where(key: input).first
 
             # key not found
             return input if translation.nil?

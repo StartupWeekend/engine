@@ -7,8 +7,8 @@ module Locomotive
       reserved_subdomains:    %w{www admin email blog webmail mail support help site sites},
       # forbidden_paths:      %w{layouts snippets stylesheets javascripts assets admin system api},
       reserved_slugs:         %w{stylesheets javascripts assets admin locomotive images api pages edit},
-      locales:                %w{en de fr pl pt-BR it nl nb es ru et ja zh-CN cs bg sk},
-      site_locales:           %w{en de fr pl pt-BR it nl nb es ru et ja zh-CN cs bg sk},
+      locales:                %w{en de fr pl pt pt-BR it nl nb es ru et ja zh-CN cs bg sk sr},
+      site_locales:           %w{en de fr pl pt pt-BR it nl nb es ru et ja zh-CN cs bg sk sr},
       cookie_key:             '_locomotive_session',
       enable_logs:            false,
       enable_admin_ssl:       false,
@@ -31,7 +31,8 @@ module Locomotive
       context_assign_extensions:  { },
       models_for_templatization:  [],
       csrf_protection:            false,
-      theme_assets_checksum:      false
+      theme_assets_checksum:      false,
+      asset_host:                 nil
     }
 
     cattr_accessor :settings

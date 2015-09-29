@@ -16,7 +16,8 @@ fr:
       de: Allemand
       fr: Français
       pl: Polonais
-      pt-BR: "Portugais"
+      pt: "Portugais"
+      pt-BR: "Brésilien Portugais"
       it: "Italien"
       nl: "Hollandais"
       nb: "Norvégien"
@@ -29,6 +30,7 @@ fr:
       cs: Tchèque
       bg: Bulgare
       sk: Slovaque
+      sr: Serbe
 
     buttons:
       login: Se connecter

@@ -10,6 +10,26 @@ es:
         notice: "La página requerida no existe."
         link: "&rarr; Volver"
 
+    locales:
+      es: Español
+      en: Inglés
+      fr: Francés
+      it: Italiano
+      ru: Ruso
+      de: Alemán
+      pl: Polaco
+      nl: Holandés
+      et: Estonio
+      pt: Portugués
+      pt-BR: "Portugués brasileño"
+      nb: Noruego
+      ja: Japonés
+      zh-CN: Chino
+      cs: Checo
+      bg: Búlgaro
+      sk: Eslovaco
+      sr: Serbian
+
     buttons:
       login: Iniciar sesión
       send_password: Enviar
@@ -20,7 +40,7 @@ es:
 
     messages:
       confirm: Por favor confirme
-      sending_form: "locomotive.messages.sending_form"
+      sending_form: El formulario está siendo enviado
 
     shared:
       header:
@@ -41,11 +61,16 @@ es:
         disable_with: "locomotive.disable_with.form_actions"
       footer:
         who_is_behind: "Servicio desarrollado por %{development} y diseñado por <a href=\"http://www.sachagreif.com\">Sacha Greif</a>"
+      form:
+        change_file: cambiar
+        delete_file: eliminar
+        cancel: cancelar
       form_actions:
         back: Volver sin guardar
         create: Crear
         update: Actualizar
         send: Enviar
+        disable_with: Pendiente...
 
     notifications:
       new_content_entry:
@@ -66,6 +91,8 @@ es:
           empty: Vacío
       index:
         is_required: requerido
+        default_label: Nombre del campo
+      form:
         default_label: Nombre del campo
 
     sessions:
